@@ -22,10 +22,13 @@ public class NumberWizard : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.UpArrow)) {
-			print("Up Arrow Pressed"); }
-		if (Input.GetKeyDown(KeyCode.DownArrow)) {
-			print("Down Arrow Pressed"); }
-		if (Input.GetKeyDown(KeyCode.Return)) {
-			print("Return Pressed"); }
+			print("Up Arrow Pressed"); 
+			}
+		else if (Input.GetKeyDown(KeyCode.DownArrow)) {
+			print("Down Arrow Pressed"); 
+			}
+		else if (Input.GetKeyDown(KeyCode.Return)) {
+			print("I Won"); 
+			}
 	}
 }
